@@ -1,0 +1,70 @@
+.login-maincontainer{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url(https://images.pexels.com/photos/6984661/pexels-photo-6984661.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2) center;
+    /* background-color: pink; */
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-wrapper{
+    width: 30%;
+    background-color: white;
+    padding: 30px;
+    h1{
+        color:black;
+        font-size: 26px;
+        letter-spacing: 2px;
+        
+        font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+    }
+    form{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        input{
+            min-width: 50%;
+            flex: 1;
+            height:50px;
+            padding: 0.6rem;
+            margin: 20px 10px 0px 0px;
+            color:coral;
+            font-size: 15px;
+            border-color: pink;
+            border:2px solid pink;
+            &:focus{
+                 outline:1px solid coral;
+               
+            }
+        }
+        p{
+            margin-top: 10px;
+            text-decoration: none;
+            color:black;
+        }
+        h3{
+          font-size: 15px;
+          margin-top: 10px;
+          letter-spacing: 2px;
+          span{
+            font-weight: 00;
+            font-family: Arial, Helvetica, sans-serif;
+          }
+        }
+        button{
+            width: 40%;
+            border:none;
+            padding: 10px;
+            background-color: pink;
+            color:white;
+            cursor: pointer;
+            margin-top: 20px;
+            font-size: 20px;
+        }
+    }
+}

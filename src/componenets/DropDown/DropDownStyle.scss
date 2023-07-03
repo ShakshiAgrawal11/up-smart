@@ -1,0 +1,37 @@
+
+      .dropdown-mainContainer{
+        margin:2rem;
+        font-size:18px;
+        background-color: pink;
+        border: 1px solid pink;
+        display: flex;
+        flex-direction: column;
+        h4{
+            color:black;
+            margin-top: 5px;
+            letter-spacing: 3px;
+        }
+      }
+
+      .dropContainer{
+        background-color:pink;
+        margin:0.5rem;
+        width:65px;
+        padding:0.5rem;
+        &:hover{
+            background-color:white;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+            color:pink
+        }
+      };
+      .box{
+        //border:2px solid black;
+        width:120px;
+        padding:0rem;
+        margin:0.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }

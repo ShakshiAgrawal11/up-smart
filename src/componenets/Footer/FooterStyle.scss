@@ -1,0 +1,45 @@
+.footer-container{
+    min-height:20vh;
+   
+    background-color: pink;
+    color: black;
+    padding: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0px;
+
+}
+
+.footer-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-info{
+    flex: 1;
+    text-align: justify;
+    text-justify: auto;
+    margin-right: 1rem;
+    p{
+        margin-top:10px;
+        padding:0.5rem
+    }
+}
+
+.footer-contact{
+    flex:1;
+}
+
+.footer-icon{
+    display: flex;
+    flex-direction: column;
+    //gap: 0.5rem;
+    margin-left: 1rem;
+    
+    div{
+        display: flex;
+        margin-top: 1rem;
+        p{
+            margin-left:1rem;
+        }
+    }
+}
